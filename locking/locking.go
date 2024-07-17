@@ -29,7 +29,7 @@ func (r RedisLocking) releaseLock() {
 }
 
 func main() {
-	// how to simulate ?
+	// how to run ?
 	// 1. open terminal window and run ( go run locking.go) -- Success Lock
 	// 2. open NEW terminal windo and run ( go run locking.go) -- Faild to lock
 	client := redis.NewClient(&redis.Options{
